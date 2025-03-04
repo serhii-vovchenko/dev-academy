@@ -1,0 +1,84 @@
+@import 'modern-normalize';
+
+@font-face {
+	font-family: 'Jost';
+	src: url('./assets/fonts/Jost-VariableFont_wght.ttf') format('woff2');
+	font-weight: 400 900;
+	font-style: normal;
+}
+
+:root {
+	font-family: Jost;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #000;
+	background-color: #fff;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	font-family: Jost;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+button {
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+/* @media screen and (min-width: 768px) {
+
+} */
+
+@media screen and (min-width: 1280px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+}

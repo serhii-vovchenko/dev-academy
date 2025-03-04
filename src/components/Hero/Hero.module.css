@@ -1,0 +1,165 @@
+.section {
+	height: 700px;
+	border-radius: 0 0 72px 72px;
+	background-image: url(../../assets/img/hero/hero-bg-mob.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 80px 0 51px;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+	.section {
+		background-image: url(../../assets/img/hero/hero-bg-mob-2x.png);
+	}
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 41px;
+	align-items: center;
+}
+
+.titleWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+.title {
+	text-align: center;
+	max-width: 305px;
+}
+
+.heroText {
+	color: #b2b2b2;
+	text-align: center;
+	font-size: 14px;
+	max-width: 285px;
+}
+
+.image {
+	width: 192px;
+	height: 203px;
+}
+
+.lastWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 38px;
+}
+
+.imageWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+	align-items: center;
+
+	img {
+		width: 88px;
+		height: 25px;
+	}
+	p {
+		color: #b2b2b2;
+		text-align: center;
+		font-size: 10px;
+		max-width: 205px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.section {
+		padding: 160px 0 80px;
+	}
+
+	.wrapper {
+		align-items: start;
+		width: 658px;
+		gap: 40px;
+		position: relative;
+	}
+
+	.title {
+		max-width: 320px;
+		text-align: start;
+	}
+
+	.heroText {
+		font-size: 16px;
+		max-width: 320px;
+		text-align: start;
+	}
+
+	.image {
+		position: absolute;
+		top: -80px;
+		left: 400px;
+		width: 280px;
+		height: 280px;
+	}
+
+	.lastWrapper {
+		flex-direction: row-reverse;
+		align-items: center;
+		gap: 240px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.section {
+		height: 737px;
+		background-image: url(../../assets/img/hero/hero-bg.png);
+		padding: 200px 0 143px;
+	}
+
+	.wrapper {
+		width: 1064px;
+		gap: 80px;
+	}
+
+	.title {
+		max-width: 511px;
+	}
+
+	.heroText {
+		font-size: 18px;
+		max-width: 474px;
+	}
+
+	.image {
+		top: -90px;
+		left: 571px;
+		width: 494px;
+		height: 494px;
+	}
+
+	.lastWrapper {
+		gap: 428px;
+	}
+
+	.imageWrapper {
+		flex-direction: row;
+		gap: 32px;
+		z-index: 1;
+
+		img {
+			width: 168px;
+			height: 48px;
+			display: block;
+		}
+		p {
+			text-align: start;
+			font-size: 16px;
+		}
+	}
+}
+
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+	.section {
+		background-image: url(../../assets/img/hero/hero-bg-2x.png);
+	}
+}
