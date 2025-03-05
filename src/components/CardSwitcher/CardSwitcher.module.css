@@ -1,0 +1,24 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+
+	span {
+		font-size: 12px;
+		font-weight: 500;
+	}
+	button {
+		border: transparent;
+		background-color: transparent;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.wrapper {
+		span {
+			font-size: 14px;
+			font-weight: 500;
+		}
+	}
+}

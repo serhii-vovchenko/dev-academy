@@ -1,0 +1,198 @@
+.section {
+	margin: 0 auto;
+}
+
+.title {
+	margin-bottom: 28px;
+}
+
+.wrapper {
+	width: 353px;
+	padding: 40px 20px;
+	border-radius: 40px;
+	background-color: #e2e6ee;
+}
+
+.imgContainer {
+	margin-bottom: 18px;
+	width: 313px;
+}
+
+.descWrap {
+	position: relative;
+	z-index: 1;
+}
+
+.descWrap::after {
+	content: '';
+	position: absolute;
+	width: 313px;
+	height: 127px;
+	background-color: #000;
+	border-radius: 20px;
+	top: 15px;
+	z-index: -1;
+}
+
+.description {
+	width: 305px;
+	padding: 40px 35px;
+	border-radius: 16px;
+	border: 1.5px solid #000;
+	background: #f9fafc;
+	margin: 0 auto;
+
+	h3 {
+		font-size: 14px;
+		font-weight: 800;
+		margin-bottom: 4px;
+	}
+	p {
+		color: #585454;
+		font-size: 10px;
+	}
+}
+
+.subjects {
+	margin-top: 15px;
+}
+
+.subList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px 3px;
+	justify-content: space-between;
+	margin-bottom: 24px;
+}
+
+.subItem {
+	padding: 6px 8px;
+	font-size: 10px;
+	font-weight: 600;
+	border: 1px solid #000;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.activeItem {
+	padding: 6px 8px;
+	font-size: 10px;
+	font-weight: 600;
+	border: 1px solid #000;
+	border-radius: 12px;
+	color: #fff;
+	background-color: #000;
+}
+
+@media screen and (min-width: 768px) {
+	.wrapper {
+		width: 658px;
+		display: flex;
+		gap: 16px;
+	}
+
+	.imgContainer {
+		margin-bottom: 0;
+		width: 200px;
+		flex-shrink: 0;
+	}
+
+	.descWrap::after {
+		width: 392px;
+		height: 160px;
+		top: 4px;
+		left: 5px;
+	}
+
+	.description {
+		width: 382px;
+		height: 160px;
+		padding: 26px 15px;
+
+		h3 {
+			font-size: 18px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+
+	.subjects {
+		margin-top: 20px;
+	}
+
+	.subList {
+		gap: 12px;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+
+	.subItem {
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+	.activeItem {
+		font-size: 12px;
+		font-weight: 500;
+		color: #fff;
+		background-color: #000;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.title {
+		margin-bottom: 40px;
+	}
+
+	.wrapper {
+		width: 1064px;
+		padding: 49px 40px 51px 50px;
+		gap: 46px;
+	}
+
+	.imgContainer {
+		width: 340px;
+	}
+
+	.descWrap::after {
+		width: 594px;
+		height: 227px;
+		top: 9px;
+		left: -3px;
+	}
+
+	.description {
+		width: 582px;
+		height: 227px;
+
+		h3 {
+			font-size: 28px;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+
+	.subjects {
+		margin-top: 64px;
+	}
+
+	.subList {
+		margin-bottom: 58px;
+	}
+
+	.subItem {
+		padding: 6px 16px;
+		font-size: 18px;
+		border-radius: 28px;
+	}
+
+	.activeItem {
+		padding: 6px 16px;
+		font-size: 18px;
+		border-radius: 28px;
+		color: #fff;
+		background-color: #000;
+	}
+}
