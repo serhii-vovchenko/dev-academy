@@ -1,0 +1,18 @@
+.wrapper {
+	margin-bottom: 18px;
+	max-width: 313px;
+}
+
+@media screen and (min-width: 768px) {
+	.wrapper {
+		margin-bottom: 0;
+		max-width: 200px;
+		flex-shrink: 0;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.wrapper {
+		max-width: 340px;
+	}
+}

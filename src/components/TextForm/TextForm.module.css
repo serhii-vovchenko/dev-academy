@@ -1,0 +1,49 @@
+.wrapper {
+	max-width: 305px;
+	padding: 40px 35px;
+	border-radius: 16px;
+	border: 1.5px solid #000;
+	background: #f9fafc;
+	margin: 0 auto;
+	box-shadow: -5px 5px 0px #000, 5px 5px 0px #000, 0px 5px 0px #000;
+
+	h3 {
+		font-size: 14px;
+		font-weight: 800;
+		margin-bottom: 4px;
+	}
+	p {
+		color: #585454;
+		font-size: 10px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.wrapper {
+		max-width: 382px;
+		height: 160px;
+		padding: 26px 15px;
+
+		h3 {
+			font-size: 18px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.wrapper {
+		max-width: 582px;
+		height: 227px;
+		box-shadow: -7px 7px 0px #000, 7px 7px 0px #000, 0px 7px 0px #000;
+
+		h3 {
+			font-size: 28px;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+}

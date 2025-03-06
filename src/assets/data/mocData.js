@@ -34,34 +34,34 @@ export const whoBenefits = [
 export const speakers = [
 	{
 		image: 'speakers-photo-1.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -69,34 +69,34 @@ export const speakers = [
 	},
 	{
 		image: 'speakers-photo-2.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -104,34 +104,34 @@ export const speakers = [
 	},
 	{
 		image: 'speakers-photo-3.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -142,34 +142,34 @@ export const speakers = [
 export const studentsCase = [
 	{
 		image: 'student-photo-1.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -177,34 +177,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-2.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -212,34 +212,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-3.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -247,34 +247,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-4.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -282,34 +282,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-5.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -317,34 +317,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-6.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -352,34 +352,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-7.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -387,34 +387,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-8.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -422,34 +422,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-9.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -457,34 +457,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-10.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -492,34 +492,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-11.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
@@ -527,34 +527,34 @@ export const studentsCase = [
 	},
 	{
 		image: 'student-photo-12.png',
-		subjects: [
+		courses: [
 			{
-				subject: 'Web Development',
+				course: 'Web Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Digital Marketing',
+				course: 'Digital Marketing',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Saas Products',
+				course: 'Saas Products',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Apps Development',
+				course: 'Apps Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'SEO Development',
+				course: 'SEO Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},
 			{
-				subject: 'Data Development',
+				course: 'Data Development',
 				description:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
 			},

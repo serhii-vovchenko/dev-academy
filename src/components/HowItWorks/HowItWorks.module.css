@@ -54,8 +54,8 @@
 
 @media screen and (min-width: 768px) {
 	.wrapper {
-		max-width: 628px;
-		padding: 20px 16px;
+		max-width: 658px;
+		padding: 40px 20px;
 		flex-direction: row;
 	}
 

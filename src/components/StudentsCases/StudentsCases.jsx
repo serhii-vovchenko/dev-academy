@@ -1,26 +1,26 @@
-import s from './Speakers.module.css';
+import s from './StudentsCases.module.css';
 
 import { useState } from 'react';
-import { speakers } from '../../assets/data/mocData';
+import { studentsCase } from '../../assets/data/mocData';
 import Container from '../Container/Container';
 import CardSwitcher from '../CardSwitcher/CardSwitcher';
 import TextForm from '../TextForm/TextForm';
 import HashButtons from '../HashButtons/HashButtons';
 import ImageBox from '../ImageBox/ImageBox';
 
-const Speakers = () => {
+const StudentsCases = () => {
 	const [currentSlide, setCurrentSlide] = useState(0);
 	const [currentCourse, setCurrentCourse] = useState(0);
 
-	const SPEAKERS_PHOTO_DIRECTORY = '/img/speakers/';
+	const STUDENTS_PHOTO_DIRECTORY = '/img/students/';
 
-	const courses = speakers[currentSlide]?.courses;
-	const title = speakers?.[currentSlide]?.courses?.[currentCourse].course;
-	const description = speakers?.[currentSlide]?.courses?.[currentCourse].description;
-	const imageLink = `${SPEAKERS_PHOTO_DIRECTORY}${speakers[currentSlide].image}`;
+	const courses = studentsCase[currentSlide]?.courses;
+	const title = studentsCase?.[currentSlide]?.courses?.[currentCourse].course;
+	const description = studentsCase?.[currentSlide]?.courses?.[currentCourse].description;
+	const imageLink = `${STUDENTS_PHOTO_DIRECTORY}${studentsCase[currentSlide].image}`;
 
 	const handleNextSlide = () => {
-		if (currentSlide === speakers.length - 1) {
+		if (currentSlide === studentsCase.length - 1) {
 			return;
 		}
 		setCurrentSlide(currentSlide + 1);
@@ -40,16 +40,16 @@ const Speakers = () => {
 	return (
 		<section className={s.section}>
 			<Container>
-				<h2 className={s.title}>Спікери курсу</h2>
+				<h2 className={s.title}>Кейси учнів</h2>
 				<div className={s.wrapper}>
-					<ImageBox link={imageLink} size={{ w: '313', h: '350' }} alt={'teacher photo'} />
+					<ImageBox link={imageLink} size={{ w: '313', h: '350' }} alt={'student photo'} />
 					<div>
 						<TextForm title={title} description={description} />
 						<div className={s.hashGroup}>
 							<HashButtons data={courses} active={currentCourse} handleSlide={handleCurrentSlide} />
 							<CardSwitcher
 								current={currentSlide + 1}
-								last={speakers.length}
+								last={studentsCase.length}
 								previous={handleLastSlide}
 								next={handleNextSlide}
 							/>
@@ -61,4 +61,4 @@ const Speakers = () => {
 	);
 };
 
-export default Speakers;
+export default StudentsCases;
