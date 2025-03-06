@@ -5,6 +5,7 @@ import NavList from './NavList/NavList';
 import MobileMenu from './MobileMenu/MobileMenu';
 import Logo from '../Logo/Logo';
 import Container from '../Container/Container';
+import { RxHamburgerMenu } from 'react-icons/rx';
 
 const Header = () => {
 	const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
@@ -20,7 +21,7 @@ const Header = () => {
 					<div className={s.mobileHeader}>
 						<Logo />
 						<button type="button" className={s.burgerBtn} onClick={toggleMobileMenu}>
-							x
+							<RxHamburgerMenu color="white" size="20" />
 						</button>
 					</div>
 					<nav className={s.navigation}>

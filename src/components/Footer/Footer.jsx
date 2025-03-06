@@ -7,33 +7,47 @@ const Footer = () => {
 	return (
 		<footer className={s.footer}>
 			<Container>
-				<Logo />
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus facere </p>
+				<div className={s.wrapper}>
+					<div className={s.logoWrapper}>
+						<Logo />
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus facere </p>
+					</div>
 
-				<div>
-					<h3>Contact Information</h3>
-					<address>
-						<ul>
-							<li>
-								<a href="mailto:example@support.com">example@support.com</a>
-							</li>
-							<li>
-								<a href="#">5 xyz st., adc, vallhalla</a>
-							</li>
-						</ul>
-					</address>
+					<div className={s.contactsWrapper}>
+						<div className={s.addressWrapper}>
+							<h3>Contact Information</h3>
+							<address>
+								<ul>
+									<li>
+										<a className={s.addressLink} href="mailto:example@support.com">
+											example@support.com
+										</a>
+									</li>
+									<li>
+										<a className={s.addressLink} href="#">
+											5 xyz st., adc, vallhalla
+										</a>
+									</li>
+								</ul>
+							</address>
+						</div>
+						<nav>
+							<ul className={s.privacyList}>
+								<li>
+									<NavLink className={s.privacy} to={'#'}>
+										Terms of Use
+									</NavLink>
+								</li>
+								<li>
+									<NavLink className={s.privacy} to={'#'}>
+										Privacy Policy
+									</NavLink>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<p className={s.copyright}>© 2024 Created by: Martin</p>
 				</div>
-				<nav>
-					<ul>
-						<li>
-							<NavLink to={'#'}>Terms of Use</NavLink>
-						</li>
-						<li>
-							<NavLink to={'#'}>Privacy Policy</NavLink>
-						</li>
-					</ul>
-				</nav>
-				<p>© 2024 Created by: Martin</p>
 			</Container>
 		</footer>
 	);

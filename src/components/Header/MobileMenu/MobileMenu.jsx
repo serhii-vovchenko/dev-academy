@@ -1,8 +1,8 @@
 import s from './MobileMenu.module.css';
-// import close from '../../../assets/icons/map.svg';
 import React from 'react';
 import Logo from '../../Logo/Logo';
 import NavList from '../NavList/NavList';
+import { IoIosClose } from 'react-icons/io';
 
 const MobileMenu = ({ closeMenu }) => {
 	const closeMobMenu = e => {
@@ -15,10 +15,7 @@ const MobileMenu = ({ closeMenu }) => {
 	return (
 		<div className={s.overlay} onClick={e => closeMobMenu(e)}>
 			<button type="button" className={s.closeBtn} onClick={closeMenu}>
-				{/* <svg className={s.svg}>
-					<use href={close} />
-				</svg> */}
-				x
+				<IoIosClose color="white" size="20" />
 			</button>
 			<div className={s.wrapper}>
 				<Logo color={'black'} />

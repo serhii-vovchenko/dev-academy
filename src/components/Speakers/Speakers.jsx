@@ -1,18 +1,15 @@
 import Container from '../Container/Container';
 import s from './Speakers.module.css';
-import { speakers } from '../../assets/data/mocData';
 import { useState } from 'react';
 import CardSwitcher from '../CardSwitcher/CardSwitcher';
 
-const Speakers = () => {
-	const PHOTO_DIRECTORY = '/img/speakers/';
-
+const Speakers = ({ title, data, photoDirectory }) => {
 	const [currentTeacher, setCurrentTeacher] = useState(0);
 	const [currentSubject, setCurrentSubject] = useState(0);
-	const subjects = speakers[currentTeacher]?.subjects;
+	const subjects = data[currentTeacher]?.subjects;
 
 	const handleNextTeacher = () => {
-		if (currentTeacher === speakers.length - 1) {
+		if (currentTeacher === data.length - 1) {
 			return;
 		}
 		setCurrentTeacher(currentTeacher + 1);
@@ -32,11 +29,11 @@ const Speakers = () => {
 	return (
 		<section className={s.section}>
 			<Container>
-				<h2 className={s.title}>Спікери курсу</h2>
+				<h2 className={s.title}>{title}</h2>
 				<div className={s.wrapper}>
 					<div className={s.imgContainer}>
 						<img
-							src={`${PHOTO_DIRECTORY}${speakers[currentTeacher].image}`}
+							src={`${photoDirectory}${data[currentTeacher].image}`}
 							alt="Teacher photo"
 							width="313"
 							height="350"
@@ -44,8 +41,8 @@ const Speakers = () => {
 					</div>
 					<div className={s.descWrap}>
 						<div className={s.description}>
-							<h3>{speakers?.[currentTeacher]?.subjects?.[currentSubject].subject}</h3>
-							<p>{speakers?.[currentTeacher]?.subjects?.[currentSubject].description}</p>
+							<h3>{data?.[currentTeacher]?.subjects?.[currentSubject].subject}</h3>
+							<p>{data?.[currentTeacher]?.subjects?.[currentSubject].description}</p>
 						</div>
 						<div className={s.subjects}>
 							<ul className={s.subList}>
@@ -63,7 +60,7 @@ const Speakers = () => {
 							</ul>
 							<CardSwitcher
 								current={currentTeacher + 1}
-								last={speakers.length}
+								last={data.length}
 								previous={handlePreviousTeacher}
 								next={handleNextTeacher}
 							/>

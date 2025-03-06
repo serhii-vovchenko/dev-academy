@@ -12,6 +12,8 @@
 	position: absolute;
 	top: 21px;
 	right: 20px;
+	border: transparent;
+	background-color: transparent;
 }
 
 .wrapper {

@@ -3,4 +3,121 @@
 	background: #000;
 	padding: 37px 0;
 	margin-top: 80px;
+	color: #fff;
+	position: relative;
+}
+
+.logoWrapper {
+	margin-bottom: 34px;
+	p {
+		font-size: 12px;
+		line-height: normal;
+		margin-top: 29px;
+		max-width: 253px;
+	}
+}
+
+.contactsWrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 67px;
+	margin-bottom: 26px;
+}
+
+.addressWrapper {
+	h3 {
+		font-size: 16px;
+		font-weight: 700;
+		line-height: normal;
+		text-transform: capitalize;
+	}
+}
+
+.addressLink {
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+}
+
+.privacy {
+	font-size: 14px;
+	line-height: normal;
+}
+
+.copyright {
+	font-size: 14px;
+	line-height: normal;
+}
+
+@media screen and (min-width: 768px) {
+	.footer {
+		margin-top: 100px;
+	}
+
+	.wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.contactsWrapper {
+		flex-direction: column;
+		gap: 67px;
+		padding-top: 40px;
+		margin-bottom: 0;
+	}
+
+	.addressWrapper {
+		h3 {
+			font-weight: 600;
+		}
+	}
+
+	.privacyList {
+		display: flex;
+		gap: 32px;
+	}
+
+	.copyright {
+		position: absolute;
+		left: 54px;
+		bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.footer {
+		border-radius: 60px 60px 0px 0px;
+		padding: 40px 0;
+		margin-top: 200px;
+	}
+
+	.logoWrapper {
+		p {
+			font-size: 16px;
+			margin-top: 34px;
+			max-width: 300px;
+		}
+	}
+
+	.contactsWrapper {
+		padding-top: 60px;
+	}
+
+	.addressWrapper {
+		h3 {
+			font-size: 20px;
+		}
+	}
+
+	.addressLink {
+		font-size: 16px;
+	}
+
+	.privacy {
+		font-size: 16px;
+	}
+
+	.copyright {
+		left: 108px;
+	}
 }

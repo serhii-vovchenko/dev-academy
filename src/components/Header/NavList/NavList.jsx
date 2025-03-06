@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const NavList = ({ className }) => {
 	return navigationLinks?.map(el => {
 		return (
-			<li key={el.slug} className={className === 'mobile' ? s.mobile : s.desktop}>
+			<li key={el.name} className={className === 'mobile' ? s.mobile : s.desktop}>
 				<NavLink to={el.slug}>{el.name}</NavLink>
 			</li>
 		);

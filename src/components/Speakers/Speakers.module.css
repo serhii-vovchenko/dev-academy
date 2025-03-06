@@ -7,7 +7,7 @@
 }
 
 .wrapper {
-	width: 353px;
+	max-width: 353px;
 	padding: 40px 20px;
 	border-radius: 40px;
 	background-color: #e2e6ee;
@@ -15,7 +15,7 @@
 
 .imgContainer {
 	margin-bottom: 18px;
-	width: 313px;
+	max-width: 313px;
 }
 
 .descWrap {
@@ -26,7 +26,7 @@
 .descWrap::after {
 	content: '';
 	position: absolute;
-	width: 313px;
+	width: 100%;
 	height: 127px;
 	background-color: #000;
 	border-radius: 20px;
@@ -35,7 +35,7 @@
 }
 
 .description {
-	width: 305px;
+	max-width: 305px;
 	padding: 40px 35px;
 	border-radius: 16px;
 	border: 1.5px solid #000;
@@ -86,26 +86,26 @@
 
 @media screen and (min-width: 768px) {
 	.wrapper {
-		width: 658px;
+		max-width: 658px;
 		display: flex;
 		gap: 16px;
 	}
 
 	.imgContainer {
 		margin-bottom: 0;
-		width: 200px;
+		max-width: 200px;
 		flex-shrink: 0;
 	}
 
 	.descWrap::after {
-		width: 392px;
+		width: 98%;
 		height: 160px;
 		top: 4px;
 		left: 5px;
 	}
 
 	.description {
-		width: 382px;
+		max-width: 382px;
 		height: 160px;
 		padding: 26px 15px;
 
@@ -146,24 +146,23 @@
 	}
 
 	.wrapper {
-		width: 1064px;
+		max-width: 1064px;
 		padding: 49px 40px 51px 50px;
 		gap: 46px;
 	}
 
 	.imgContainer {
-		width: 340px;
+		max-width: 340px;
 	}
 
 	.descWrap::after {
-		width: 594px;
 		height: 227px;
 		top: 9px;
-		left: -3px;
+		left: 6px;
 	}
 
 	.description {
-		width: 582px;
+		max-width: 582px;
 		height: 227px;
 
 		h3 {
