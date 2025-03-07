@@ -1,0 +1,35 @@
+.wrapper {
+	display: flex;
+	gap: 4px;
+}
+
+.hashBtn {
+	color: #fff;
+	font-size: 10px;
+	font-weight: 500;
+	padding: 6px 10px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	border: 1px solid #fff;
+	background-color: #070707;
+}
+
+@media screen and (min-width: 768px) {
+	.wrapper {
+		width: 300px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.wrapper {
+		width: 486px;
+	}
+
+	.hashBtn {
+		font-size: 14px;
+		padding: 8px 16px;
+	}
+}

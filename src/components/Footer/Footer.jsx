@@ -9,7 +9,7 @@ const Footer = () => {
 			<Container>
 				<div className={s.wrapper}>
 					<div className={s.logoWrapper}>
-						<Logo />
+						<Logo position={'footer'} />
 						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus facere </p>
 					</div>
 

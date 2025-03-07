@@ -18,8 +18,8 @@
 	gap: 24px;
 }
 
-.firstContainer {
-}
+/* .firstContainer {
+} */
 
 .imageWrapper {
 	max-width: 301px;
@@ -29,7 +29,6 @@
 
 	img {
 		width: 100%;
-		height: 206px;
 	}
 }
 
@@ -74,7 +73,7 @@
 		padding: 0;
 
 		img {
-			width: 320px;
+			max-width: 320px;
 			height: 192px;
 		}
 	}
@@ -112,6 +111,7 @@
 		margin-bottom: 20px;
 
 		img {
+			max-width: none;
 			width: 467px;
 			height: 321px;
 		}

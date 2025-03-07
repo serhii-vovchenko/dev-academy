@@ -1,39 +1,145 @@
-.wrapper {
+.header {
 	display: flex;
+	align-items: center;
 	gap: 6px;
-}
-.logoImg {
-	position: relative;
-	width: 18px;
-	height: 18px;
-}
-.first {
-	width: 12px;
-	height: 12px;
-	border-radius: 4px;
-	background-color: #c07ff2;
-	position: absolute;
-	top: 0;
-	left: 0;
+
+	.logoContainer {
+		position: relative;
+		width: 20px;
+		height: 20px;
+	}
+
+	.first {
+		width: 12px;
+		height: 12px;
+		border-radius: 4px;
+		background-color: #c07ff2;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.second {
+		width: 12px;
+		height: 12px;
+		border-radius: 8px;
+		background-color: #09aff4;
+		position: absolute;
+		bottom: 0;
+		left: 7px;
+	}
+
+	.logo {
+		color: #fff;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: normal;
+	}
 }
 
-.second {
-	width: 12px;
-	height: 12px;
-	border-radius: 8px;
-	background-color: #09aff4;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-.blackLogo {
-	color: #000;
-	font-size: 20px;
-	font-weight: 500;
+.footer {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+
+	.logoContainer {
+		position: relative;
+		width: 20px;
+		height: 20px;
+	}
+
+	.first {
+		width: 12px;
+		height: 12px;
+		border-radius: 4px;
+		background-color: #c07ff2;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.second {
+		width: 12px;
+		height: 12px;
+		border-radius: 8px;
+		background-color: #09aff4;
+		position: absolute;
+		bottom: 0;
+		left: 7px;
+	}
+
+	.logo {
+		color: #fff;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: normal;
+	}
 }
 
-.whiteLogo {
-	color: #fff;
-	font-size: 12px;
-	font-weight: 500;
+.mobile {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+
+	.logoContainer {
+		position: relative;
+		width: 21px;
+		height: 21px;
+	}
+
+	.first {
+		width: 15px;
+		height: 15px;
+		border-radius: 4px;
+		background-color: #c07ff2;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.second {
+		width: 15px;
+		height: 15px;
+		border-radius: 8px;
+		background-color: #09aff4;
+		position: absolute;
+		bottom: 0;
+		left: 8px;
+	}
+
+	.logo {
+		color: #000;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: normal;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.footer {
+		height: 29px;
+
+		.logoContainer {
+			position: relative;
+			width: 24px;
+			height: 24px;
+		}
+
+		.first {
+			width: 16px;
+			height: 16px;
+			border-radius: 4px;
+		}
+
+		.second {
+			width: 16px;
+			height: 16px;
+			border-radius: 8px;
+			left: 8px;
+		}
+
+		.logo {
+			font-size: 20px;
+		}
+	}
 }

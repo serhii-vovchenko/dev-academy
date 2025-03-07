@@ -1,0 +1,46 @@
+.section {
+	margin: 0 auto;
+}
+
+.title {
+	margin-bottom: 28px;
+}
+
+.wrapper {
+	max-width: 353px;
+	padding: 40px 20px;
+	border-radius: 40px;
+	background-color: #e2e6ee;
+}
+
+.hashGroup {
+	margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+	.wrapper {
+		max-width: 658px;
+		display: flex;
+		gap: 16px;
+	}
+
+	.hashGroup {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.title {
+		margin-bottom: 40px;
+	}
+
+	.wrapper {
+		max-width: 1064px;
+		padding: 49px 40px 51px 50px;
+		gap: 46px;
+	}
+
+	.hashGroup {
+		margin-top: 64px;
+	}
+}

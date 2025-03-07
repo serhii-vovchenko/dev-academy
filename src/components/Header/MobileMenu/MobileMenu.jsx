@@ -18,7 +18,7 @@ const MobileMenu = ({ closeMenu }) => {
 				<IoIosClose color="white" size="20" />
 			</button>
 			<div className={s.wrapper}>
-				<Logo color={'black'} />
+				<Logo position={'mobile'} />
 				<nav>
 					<ul className={s.navList}>
 						<NavList className="mobile" />

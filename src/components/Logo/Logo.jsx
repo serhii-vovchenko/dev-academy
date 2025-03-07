@@ -1,13 +1,22 @@
 import s from './Logo.module.css';
 
-const Logo = ({ color }) => {
+const Logo = ({ position }) => {
+	const style =
+		position === 'header'
+			? s.header
+			: position === 'footer'
+			? s.footer
+			: position === 'mobile'
+			? s.mobile
+			: '';
+
 	return (
-		<div className={s.wrapper}>
-			<div className={s.logoImg}>
+		<div className={style}>
+			<div className={s.logoContainer}>
 				<div className={s.first}></div>
 				<div className={s.second}></div>
 			</div>
-			<span className={color === 'black' ? s.blackLogo : s.whiteLogo}>Logo</span>
+			<span className={s.logo}>DevAcademy</span>
 		</div>
 	);
 };

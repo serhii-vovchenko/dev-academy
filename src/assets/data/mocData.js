@@ -584,3 +584,320 @@ export const howItWorks = [
 		text: 'Lorem ipsum dolor sit amet consectetur. Felis amet consectetur sollicitudin at aliquam tincidunt laoreet auctor elit. Lectus ipsum sapien id turpis elit cras ac. Velit risus nisl ut dictum venenatis mauris faucibus. Aliquam vehicula gravida fermentum in sodales fringilla mi at. Turpis volutpat parturient elit blandit proin magna pretium vestibulum elit. A massa adipiscing pellentesque tempor ac vel.',
 	},
 ];
+
+export const careerCenter = [
+	{
+		image: 'career-center-1.png',
+		title: 'Для дорослих',
+		description:
+			'ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.',
+		hashBtn: 'Затребувані професії',
+	},
+	{
+		image: 'career-center-2.png',
+		title: 'Для дітей',
+		description:
+			'ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.',
+		hashBtn: 'Практика на реальних задачах',
+	},
+];
+
+export const community = [
+	{
+		image: 'community-1.png',
+		title: "Центр кар'єри",
+		description:
+			'ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.',
+		hashBtn: 'Затребувані професії',
+	},
+	{
+		image: 'community-2.png',
+		title: "Центр кар'єри",
+		description:
+			'ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.',
+		hashBtn: 'Практика на реальних задачах',
+	},
+];
+
+export const courseProgram = [
+	{
+		image: 'course-program-1.png',
+		courses: [
+			{
+				course: 'Web Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Digital Marketing',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Saas Products',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Apps Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'SEO Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Data Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+		],
+	},
+	{
+		image: 'course-program-2.png',
+		courses: [
+			{
+				course: 'Web Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Digital Marketing',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Saas Products',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Apps Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'SEO Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Data Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+		],
+	},
+	{
+		image: 'course-program-3.png',
+		courses: [
+			{
+				course: 'Web Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Digital Marketing',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Saas Products',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Apps Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'SEO Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Data Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+		],
+	},
+	{
+		image: 'course-program-4.png',
+		courses: [
+			{
+				course: 'Web Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Digital Marketing',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Saas Products',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Apps Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'SEO Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Data Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+		],
+	},
+	{
+		image: 'course-program-5.png',
+		courses: [
+			{
+				course: 'Web Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Digital Marketing',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Saas Products',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Apps Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'SEO Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Data Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+		],
+	},
+	{
+		image: 'course-program-6.png',
+		courses: [
+			{
+				course: 'Web Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Digital Marketing',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Saas Products',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Apps Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'SEO Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Data Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+		],
+	},
+	{
+		image: 'course-program-7.png',
+		courses: [
+			{
+				course: 'Web Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Digital Marketing',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Saas Products',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Apps Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'SEO Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Data Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+		],
+	},
+	{
+		image: 'course-program-8.png',
+		courses: [
+			{
+				course: 'Web Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Digital Marketing',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Saas Products',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Apps Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'SEO Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+			{
+				course: 'Data Development',
+				description:
+					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.',
+			},
+		],
+	},
+];

@@ -1,21 +1,19 @@
 import s from './Button.module.css';
 
 const Button = ({ type, style, children }) => {
+	const styleBtn =
+		style === 'register'
+			? s.register
+			: style === 'choose'
+			? s.choose
+			: style === 'send'
+			? s.send
+			: style === 'view'
+			? s.view
+			: '';
+
 	return (
-		<button
-			className={
-				style === 'register'
-					? s.register
-					: style === 'choose'
-					? s.choose
-					: style === 'send'
-					? s.send
-					: style === 'view'
-					? s.view
-					: ''
-			}
-			type={type}
-		>
+		<button className={styleBtn} type={type}>
 			{children}
 		</button>
 	);

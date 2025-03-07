@@ -19,10 +19,12 @@ const Header = () => {
 			<header className={s.header}>
 				<Container>
 					<div className={s.mobileHeader}>
-						<Logo />
-						<button type="button" className={s.burgerBtn} onClick={toggleMobileMenu}>
-							<RxHamburgerMenu color="white" size="20" />
-						</button>
+						<Logo position={'header'} />
+						{!mobileMenuIsOpen && (
+							<button type="button" className={s.burgerBtn} onClick={toggleMobileMenu}>
+								<RxHamburgerMenu color="white" size="20" />
+							</button>
+						)}
 					</div>
 					<nav className={s.navigation}>
 						<ul className={s.navList}>
