@@ -3,7 +3,6 @@ import s from './CourseProgram.module.css';
 import { useState } from 'react';
 import { courseProgram } from '../../assets/data/mocData';
 import Container from '../Container/Container';
-import CardSwitcher from '../CardSwitcher/CardSwitcher';
 import TextForm from '../TextForm/TextForm';
 import HashButtons from '../HashButtons/HashButtons';
 import ImageBox from '../ImageBox/ImageBox';
@@ -46,16 +45,14 @@ const CourseProgram = () => {
 					<ImageBox link={imageLink} size={{ w: '313', h: '350' }} alt={'student photo'} />
 					<div>
 						<TextForm title={title} description={description} />
-						<CoursePicker />
+						<CoursePicker
+							current={currentSlide + 1}
+							last={courseProgram.length}
+							previous={handleLastSlide}
+							next={handleNextSlide}
+						/>
 						<div className={s.hashGroup}>
 							<HashButtons data={courses} active={currentCourse} handleSlide={handleCurrentSlide} />
-
-							<CardSwitcher
-								current={currentSlide + 1}
-								last={courseProgram.length}
-								previous={handleLastSlide}
-								next={handleNextSlide}
-							/>
 						</div>
 					</div>
 				</div>

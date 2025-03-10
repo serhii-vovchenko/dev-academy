@@ -41,8 +41,13 @@
 		line-height: normal;
 		border-radius: 40px;
 		background-color: #fff;
-		border: transparent;
+		border: 1px solid transparent;
 		outline: transparent;
+		transition: all 0.3s;
+
+		&:hover {
+			border-color: #070707;
+		}
 	}
 
 	p {
@@ -140,6 +145,7 @@
 
 		button {
 			font-size: 18px;
+			height: 52px;
 		}
 	}
 }

@@ -149,3 +149,22 @@
 		}
 	}
 }
+
+@media screen and (min-width: 1280px) {
+	.wrapper {
+		padding: 45px 25px;
+		background-color: #e2e6ee;
+		max-width: 358px;
+	}
+
+	.activeWrapper {
+		padding: 58px 33px;
+		background-color: #070707;
+	}
+
+	.detailsList {
+		.detailsItem {
+			font-size: 16px;
+		}
+	}
+}

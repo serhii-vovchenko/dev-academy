@@ -1,8 +1,12 @@
 .section {
-	margin: 0 auto;
 	position: relative;
 	width: 100%;
 	overflow: hidden;
+	margin: 0 auto;
+}
+
+.title {
+	margin-bottom: 40px;
 }
 
 .wrapper {

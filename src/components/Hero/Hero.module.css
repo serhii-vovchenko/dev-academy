@@ -45,6 +45,10 @@
 .image {
 	width: 192px;
 	height: 203px;
+	background-image: url(../../assets/img/hero/hero-gradient.png);
+	background-position: -35px 0px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .lastWrapper {
@@ -135,6 +139,7 @@
 		left: 571px;
 		width: 494px;
 		height: 494px;
+		background-position: -55px 0px;
 	}
 
 	.lastWrapper {
@@ -151,6 +156,7 @@
 			height: 48px;
 			display: block;
 		}
+
 		p {
 			text-align: start;
 			font-size: 16px;

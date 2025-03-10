@@ -74,19 +74,30 @@ button {
 	align-items: center;
 	height: 540px;
 	max-width: 1064px;
+	overflow: visible;
+}
+
+.swiper-reviews {
+	display: flex;
+	align-items: center;
+	height: 300px;
+	max-width: 1064px;
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		color: #b2b2b2;
+	}
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-	width: 9px;
-	height: 45px;
-	color: black;
+	color: #b2b2b2;
 	transition: color 0.3s ease;
 }
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-	color: #c07ff2;
+	color: #5245dd;
 }
 
 /* @media screen and (min-width: 768px) {
@@ -94,12 +105,36 @@ button {
 } */
 
 @media screen and (min-width: 1280px) {
+	body {
+		background-image: url('/public/img/bg-body-min.png');
+		background-position: center;
+		background-size: cover;
+	}
+
+	@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		.section {
+			background-image: url('/public/img/bg-body-2x-min.png');
+		}
+	}
+
 	h1 {
 		font-size: 48px;
 	}
 
 	h2 {
 		font-size: 40px;
+	}
+	.swiper {
+		height: 620px;
+	}
+
+	.swiper-reviews {
+		height: 300px;
+
+		.swiper-button-prev,
+		.swiper-button-next {
+			display: inline;
+		}
 	}
 
 	.swiper-button-prev,

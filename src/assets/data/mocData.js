@@ -962,3 +962,83 @@ export const pricing = [
 		],
 	},
 ];
+
+export const courses = [
+	{
+		title: 'Модуль 1: Фундамент',
+		description:
+			'Открой для себя самую перспективную нишу в криптовалютах, в которой сможете самостоятельно зарабатывать приличные деньги',
+		subtitle: 'Что будем изучать и делать:',
+		courses: ['Apps Development', 'SEO Services', 'Data Analysis'],
+	},
+	{
+		title: 'Модуль 2: Фундамент',
+		description:
+			'Открой для себя самую перспективную нишу в криптовалютах, в которой сможете самостоятельно зарабатывать приличные деньги',
+		subtitle: 'Что будем изучать и делать:',
+		courses: ['Apps Development', 'SEO Services', 'Data Analysis'],
+	},
+	{
+		title: 'Модуль 3: Фундамент',
+		description:
+			'Открой для себя самую перспективную нишу в криптовалютах, в которой сможете самостоятельно зарабатывать приличные деньги',
+		subtitle: 'Что будем изучать и делать:',
+		courses: ['Apps Development', 'SEO Services', 'Data Analysis'],
+	},
+	{
+		title: 'Модуль 4: Фундамент',
+		description:
+			'Открой для себя самую перспективную нишу в криптовалютах, в которой сможете самостоятельно зарабатывать приличные деньги',
+		subtitle: 'Что будем изучать и делать:',
+		courses: ['Apps Development', 'SEO Services', 'Data Analysis'],
+	},
+	{
+		title: 'Модуль 5: Фундамент',
+		description:
+			'Открой для себя самую перспективную нишу в криптовалютах, в которой сможете самостоятельно зарабатывать приличные деньги',
+		subtitle: 'Что будем изучать и делать:',
+		courses: ['Apps Development', 'SEO Services', 'Data Analysis'],
+	},
+	{
+		title: 'Модуль 6: Фундамент',
+		description:
+			'Открой для себя самую перспективную нишу в криптовалютах, в которой сможете самостоятельно зарабатывать приличные деньги',
+		subtitle: 'Что будем изучать и делать:',
+		courses: ['Apps Development', 'SEO Services', 'Data Analysis'],
+	},
+	{
+		title: 'Модуль 7: Фундамент',
+		description:
+			'Открой для себя самую перспективную нишу в криптовалютах, в которой сможете самостоятельно зарабатывать приличные деньги',
+		subtitle: 'Что будем изучать и делать:',
+		courses: ['Apps Development', 'SEO Services', 'Data Analysis'],
+	},
+	{
+		title: 'Модуль 8: Фундамент',
+		description:
+			'Открой для себя самую перспективную нишу в криптовалютах, в которой сможете самостоятельно зарабатывать приличные деньги',
+		subtitle: 'Что будем изучать и делать:',
+		courses: ['Apps Development', 'SEO Services', 'Data Analysis'],
+	},
+];
+
+export const reviews = [
+	{
+		review:
+			'ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.',
+		author: 'Yusuf Amin',
+		role: 'Founder',
+	},
+	{
+		review:
+			'ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.',
+		author: 'Fouad Osman',
+		role: 'Officer',
+	},
+	{
+		review:
+			'ipsum dolor sit amet consectetur adipisicing elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.',
+		author: 'Fairouz Mhmd',
+		role: 'Manager',
+	},
+];

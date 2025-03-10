@@ -8,7 +8,7 @@
 
 .wrapper {
 	max-width: 353px;
-	width: 100%;
+	/* width: 100%; */
 	padding: 33px;
 	border-radius: 40px;
 	background-color: #070707;
@@ -31,7 +31,7 @@
 }
 
 .imgBox {
-	width: 281px;
+	max-width: 281px;
 	height: 183px;
 	margin: 0 auto;
 	border-radius: 8px;
@@ -43,6 +43,10 @@
 		object-fit: cover;
 		position: absolute;
 		top: -40px;
+		background-image: url(/public/img/community/community-2-gradient.png);
+		background-position: -25px 0;
+		background-repeat: no-repeat;
+		background-size: contain;
 	}
 }
 
@@ -77,6 +81,7 @@
 	}
 
 	.imgBox {
+		max-width: none;
 		width: 480px;
 		height: 450px;
 		overflow: hidden;
@@ -87,7 +92,7 @@
 		img {
 			width: 400px;
 			height: 350px;
-			object-fit: cover;
+			background-position: -45px 0;
 		}
 	}
 }
@@ -129,6 +134,7 @@
 		img {
 			width: 611px;
 			height: 544px;
+			background-position: -65px 0;
 		}
 	}
 }

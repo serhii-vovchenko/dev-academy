@@ -12,6 +12,7 @@ import Community from '../components/Community/Community';
 import Pricing from '../components/Pricing/Pricing';
 import Contact from '../components/Contact/Contact';
 import CourseProgram from '../components/CourseProgram/CourseProgram';
+import Reviews from '../components/Reviews/Reviews';
 
 function App() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 				<CourseProgram />
 				<Community />
 				<Pricing />
+				<Reviews />
 				<Contact />
 			</main>
 			<Footer />

@@ -3,7 +3,7 @@
 }
 
 .title {
-	margin-bottom: 28px;
+	margin-bottom: 24px;
 }
 
 .wrapper {
@@ -25,7 +25,7 @@
 	}
 
 	.hashGroup {
-		margin-top: 20px;
+		margin-top: 14px;
 	}
 }
 
@@ -41,6 +41,6 @@
 	}
 
 	.hashGroup {
-		margin-top: 64px;
+		margin-top: 36px;
 	}
 }
