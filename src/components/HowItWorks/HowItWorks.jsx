@@ -13,14 +13,14 @@ const HowItWorks = () => {
 		if (currentPost === howItWorks.length - 1) {
 			return;
 		}
-		setCurrentPost(currentPost + 1);
+		setCurrentPost(prev => prev + 1);
 	};
 
 	const handlePreviousPost = () => {
 		if (currentPost === 0) {
 			return;
 		}
-		setCurrentPost(currentPost - 1);
+		setCurrentPost(prev => prev - 1);
 	};
 
 	return (

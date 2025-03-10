@@ -6,8 +6,6 @@ const Button = ({ type, style, children }) => {
 			? s.register
 			: style === 'choose'
 			? s.choose
-			: style === 'send'
-			? s.send
 			: style === 'view'
 			? s.view
 			: '';

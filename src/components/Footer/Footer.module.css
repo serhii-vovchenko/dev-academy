@@ -37,11 +37,19 @@
 	font-size: 12px;
 	font-style: normal;
 	line-height: normal;
+
+	&:hover {
+		color: #5245dd;
+	}
 }
 
 .privacy {
 	font-size: 14px;
 	line-height: normal;
+
+	&:hover {
+		color: #5245dd;
+	}
 }
 
 .copyright {

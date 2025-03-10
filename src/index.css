@@ -69,6 +69,26 @@ button {
 	transition: all 0.3s;
 }
 
+.swiper {
+	display: flex;
+	align-items: center;
+	height: 540px;
+	max-width: 1064px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	width: 9px;
+	height: 45px;
+	color: black;
+	transition: color 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+	color: #c07ff2;
+}
+
 /* @media screen and (min-width: 768px) {
 
 } */
@@ -80,5 +100,10 @@ button {
 
 	h2 {
 		font-size: 40px;
+	}
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		display: none;
 	}
 }

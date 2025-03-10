@@ -24,14 +24,14 @@ const CourseProgram = () => {
 		if (currentSlide === courseProgram.length - 1) {
 			return;
 		}
-		setCurrentSlide(currentSlide + 1);
+		setCurrentSlide(prev => prev + 1);
 	};
 
 	const handleLastSlide = () => {
 		if (currentSlide === 0) {
 			return;
 		}
-		setCurrentSlide(currentSlide - 1);
+		setCurrentSlide(prev => prev - 1);
 	};
 
 	const handleCurrentSlide = i => {

@@ -1,0 +1,151 @@
+.wrapper {
+	padding: 34px 24px;
+	background-color: #e2e6ee;
+	max-width: 337px;
+	width: 100%;
+	border-radius: 40px;
+	flex-shrink: 0;
+
+	.title {
+		color: #1b1b1b;
+		font-size: 22px;
+		font-weight: 500;
+		margin-bottom: 8px;
+	}
+
+	.text {
+		color: #464648;
+		font-size: 14px;
+		line-height: 1.5;
+		margin-bottom: 16px;
+	}
+}
+
+.activeWrapper {
+	padding: 40px 28px;
+	background-color: #070707;
+
+	.title {
+		color: #f3f3f6;
+	}
+
+	.text {
+		color: #e3e3e3;
+	}
+}
+
+.priceContainer {
+	display: flex;
+	gap: 16px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #b5b5b5;
+
+	.partsPrice {
+		.info {
+			color: #767678;
+			font-size: 14px;
+			line-height: 1.5;
+		}
+		.sales {
+			color: #5245dd;
+			font-size: 12px;
+			line-height: 1.5;
+			margin-bottom: 4px;
+
+			span {
+				font-size: 24px;
+				font-weight: 700;
+				line-height: 1.45;
+			}
+		}
+		.oldPrice {
+			color: #464648;
+			font-size: 12px;
+			line-height: 1.5;
+			span {
+				line-height: 1.2;
+				text-decoration: line-through;
+			}
+		}
+	}
+
+	.price {
+		.info {
+			color: #767678;
+			font-size: 14px;
+			line-height: 1.5;
+			margin-bottom: 9px;
+		}
+
+		.salesPrice {
+			color: #5245dd;
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 7px;
+		}
+
+		.originPrice {
+			color: #464648;
+			font-size: 12px;
+			line-height: 1.2;
+			text-decoration: line-through;
+		}
+	}
+}
+
+.activePriceContainer {
+	.partsPrice {
+		.sales {
+			color: #74b7fe;
+		}
+		.oldPrice {
+			color: #e3e3e3;
+		}
+	}
+
+	.price {
+		.salesPrice {
+			color: #74b7fe;
+		}
+
+		.originPrice {
+			color: #e3e3e3;
+		}
+	}
+}
+
+.detailsList {
+	padding-top: 20px;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin-bottom: 20px;
+
+	.detailsItem {
+		color: #1b1b1b;
+		font-size: 12px;
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 2px;
+			height: 2px;
+			border-radius: 50%;
+			background-color: black;
+			left: -10px;
+			top: 5px;
+		}
+	}
+}
+
+.activeDetailList {
+	.detailsItem {
+		color: #f3f3f6;
+
+		&::before {
+			background-color: #f3f3f6;
+		}
+	}
+}

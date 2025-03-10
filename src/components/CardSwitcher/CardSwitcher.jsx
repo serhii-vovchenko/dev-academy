@@ -9,7 +9,7 @@ const CardSwitcher = ({ current, last, previous, next }) => {
 			</button>
 			<span>{`${current} / ${last}`}</span>
 			<button type="button" onClick={next}>
-				<CgChevronRight color="black" size="16" />
+				<CgChevronRight className={s.icon} color="black" size="16" />
 			</button>
 		</div>
 	);

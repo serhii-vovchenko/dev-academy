@@ -15,6 +15,11 @@
 	border-radius: 20px;
 	border: 1px solid #fff;
 	background-color: #070707;
+
+	&:hover {
+		background-color: #fff;
+		color: #070707;
+	}
 }
 
 @media screen and (min-width: 768px) {
